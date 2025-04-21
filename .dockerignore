@@ -1,0 +1,42 @@
+# General ignores for all services
+**/.git
+**/.gitignore
+**/.env
+**/.vscode
+**/.idea
+**/node_modules
+**/__pycache__
+**/*.py[cod]
+**/*.swp
+**/*.bak
+**/*.tmp
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/Dockerfile*
+**/docker-compose*
+**/.dockerignore
+**/README.md
+**/LICENSE
+
+# Backend-specific ignores
+backend/venv
+backend/.pytest_cache
+backend/coverage.xml
+backend/.coverage
+
+# Frontend-specific ignores
+frontend/build
+frontend/.next
+frontend/.cache
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# Database-specific ignores (if any db files are in your project)
+*.dump
+*.sql
+*.bak
