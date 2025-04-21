@@ -12,7 +12,7 @@ Welcome to the Raffle Project! This is a simple application designed to manage a
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone [<repository-url>](https://github.com/JoaoMendesG/raffle.git)
     ```
 2. Navigate to the project directory:
     ```bash
