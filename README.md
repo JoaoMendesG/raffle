@@ -20,7 +20,7 @@ Welcome to the Raffle Project! This is a simple application designed to manage a
     ```
 3. Run the application:
     ```bash
-    <command-to-run>
+    docker-compose up --build
     ```
 
 ## Contributing
